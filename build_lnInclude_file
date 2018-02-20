@@ -7,13 +7,15 @@ cd ${0%/*} || exit 1    # Run from this directory
 #<listOptionValue builtIn="false" value="/home/timo/OpenFOAM/OpenFOAM-4.0/src/finiteVolume/lnInclude/fvCFD.H"/>
 #
 
+FOAMVERSION="dev"
+
 #Find all the include paths of OF an write them in a file
-find /home/timo/OpenFOAM/OpenFOAM-4.0/src -name "*lnInclude*" > OpenFOAM_lnIncludes.txt
+find /home/timo/OpenFOAM/OpenFOAM-$FOAMVERSION/src -name "*lnInclude*" > OpenFOAM-"$FOAMVERSION"_lnIncludes.txt
 
 #Append Beginning of the line for the .cprojet file
 # add characters at the beginning of each line using SED
 #sed 's/^/add_to_beginning/' file
-sed 's/^/<listOptionValue builtIn="false" value="/' OpenFOAM_lnIncludes.txt > OpenFOAM_lnIncludes_append_beginning.txt
+sed 's/^/<listOptionValue builtIn="false" value="/' OpenFOAM-"$FOAMVERSION"_lnIncludes.txt > OpenFOAM-"$FOAMVERSION"_lnIncludes_append_beginning.txt
 
 
 #Append End of the line for the .cprojet file
@@ -21,12 +23,12 @@ sed 's/^/<listOptionValue builtIn="false" value="/' OpenFOAM_lnIncludes.txt > Op
 #sed 's/$/append_to_end/' file
 
 #Using comma instead of slash because sed can't handel slash
-sed 's/$/",>/' OpenFOAM_lnIncludes_append_beginning.txt > OpenFOAM_lnIncludes_append_end_tmp.txt
+sed 's/$/",>/' OpenFOAM-"$FOAMVERSION"_lnIncludes_append_beginning.txt > OpenFOAM-"$FOAMVERSION"_lnIncludes_append_end_tmp.txt
 #Replacing the comma with a slash
-tr , '/' < OpenFOAM_lnIncludes_append_end_tmp.txt > OpenFOAM_lnIncludes_append_end.txt
+tr , '/' < OpenFOAM-"$FOAMVERSION"_lnIncludes_append_end_tmp.txt > OpenFOAM-"$FOAMVERSION"_lnIncludes_append_end.txt
 
 
 
 #Cleaning up
-cp OpenFOAM_lnIncludes_append_end.txt OpenFOAM_lnIncludes.txt
-rm OpenFOAM_lnIncludes_*
+cp OpenFOAM-"$FOAMVERSION"_lnIncludes_append_end.txt OpenFOAM-"$FOAMVERSION"_lnIncludes.txt
+rm OpenFOAM-"$FOAMVERSION"_lnIncludes_*
