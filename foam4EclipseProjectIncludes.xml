@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C++ Source File">
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/fileFormats/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/rigidBodyMeshMotion/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/edgeMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/sampling/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/functionObjects/forces/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/functionObjects/lagrangian/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/functionObjects/solvers/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/functionObjects/field/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/functionObjects/utilities/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/pyrolysisModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/thermalBaffleModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/regionCoupling/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/surfaceFilmModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/surfaceFilmModels/derivedFvPatchFields/wallFunctions/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionModels/regionModel/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/fvAgglomerationMethods/pairPatchAgglomeration/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/distributed/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/decompose/metisDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/decompose/decompose/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/decompose/ptscotchDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/decompose/scotchDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/decompose/decompositionMethods/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/parallel/reconstruct/reconstruct/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/meshTools/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/fvOptions/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/Pstream/mpi/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/TurbulenceModels/phaseIncompressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/TurbulenceModels/turbulenceModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/TurbulenceModels/compressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/TurbulenceModels/phaseCompressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/TurbulenceModels/incompressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/ODE/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/randomProcesses/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/sixDoFRigidBodyMotion/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/renumber/SloanRenumber/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/renumber/renumberMethods/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dynamicFvMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/rigidBodyDynamics/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/topoChangerFvMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/genericPatchFields/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/finiteVolume/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/combustionModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dynamicMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/triSurface/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/OpenFOAM/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/OSspecific/POSIX/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/Pstream/dummy/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/conversion/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/intermediate/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/spray/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/basic/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/DSMC/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/distributionModels/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/coalCombustion/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/solidParticle/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/molecularDynamics/molecule/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/molecularDynamics/potential/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/molecularDynamics/molecularMeasurements/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/lagrangian/turbulence/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/twoPhaseProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/twoPhaseMixture/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/interfaceProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/compressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/incompressible/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/transportModels/immiscibleIncompressibleTwoPhaseMixture/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/solidChemistryModel/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/properties/solidProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/properties/solidMixtureProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/properties/liquidProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/properties/liquidMixtureProperties/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/reactionThermo/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/basic/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/chemistryModel/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/thermophysicalFunctions/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/solidThermo/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/barotropicCompressibilityModel/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/radiation/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/SLGThermo/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/laminarFlameSpeed/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/specie/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/thermophysicalModels/solidSpecie/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/fvMotionSolver/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/engine/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dummyThirdParty/metisDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dummyThirdParty/ptscotchDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dummyThirdParty/MGridGen/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/dummyThirdParty/scotchDecomp/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/surfMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/regionCoupled/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/mesh/extrudeModel/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/mesh/blockMesh/lnInclude</includepath>
+<includepath>/home/timo/OpenFOAM/OpenFOAM-4.0/src/mesh/snappyHexMesh/lnInclude</includepath>
+<includepath workspace_path="true">/compMultiphaseCavitation/multiphasePhaseChangeMixtureThermo/lnInclude</includepath>
+<includepath workspace_path="true">/compMultiphaseCavitation/multiphaseCavitationModels/lnInclude</includepath>
+
+</language>
+<language name="C Source File">
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C++ Source File">
+
+</language>
+<language name="C Source File">
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+</cdtprojectproperties>
